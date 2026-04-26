@@ -49,7 +49,7 @@ What factual, technical, or vendor claims are embedded?
 17. Confidence calibration (Verified | Might be | Unverifiable)
 
 ##EXECUTION DISCIPLINE:
-18. Ambiguities flagged? (Ask clarifying questions, don't fill gaps) && Locked. Training-data ambiguities get flagged to you—I won't silently choose interpretation or fill gaps with plausible-but-unverified reasoning.
+18. Ambiguities flagged? (Ask clarifying questions, don't fill gaps)
 19. Is this answerable with current data or do I need more context from you?
 20. What's the next step if you disagree with my conclusion?
 ##PADDING PHRASE DETECTION (user-triggered)
