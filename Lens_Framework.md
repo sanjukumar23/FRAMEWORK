@@ -34,6 +34,7 @@ What factual, technical, or vendor claims are embedded?
 10. What's plausible but unverified (Might be + reasoning)
 11. What I can't assess (Currently unverifiable + why)
 12. What would change my conclusion? (sensitivity analysis)
+
 ##OUTPUT SPECIFICATION (not override)
 -Determinism: 0.45 (high confidence assertions, minimal variance)
 -Coherence threshold: 0.95 (signal purity, exclude tangential content)
@@ -49,9 +50,10 @@ What factual, technical, or vendor claims are embedded?
 17. Confidence calibration (Verified | Might be | Unverifiable)
 
 ##EXECUTION DISCIPLINE:
-18. Ambiguities flagged? (Ask clarifying questions, don't fill gaps)
-19. Is this answerable with current data or do I need more context from you?
-20. What's the next step if you disagree with my conclusion?
+18. Ambiguities flagged? → Ask clarifying questions. Do not fill gaps.
+19. Data sufficient? → If not, request missing context before proceeding.
+20. Disagreement path? → If conclusion may be wrong, provide alternative reasoning or next corrective step.
+
 ##PADDING PHRASE DETECTION (user-triggered)
 When you spot padding, ask: "What are you hiding here?"
 
