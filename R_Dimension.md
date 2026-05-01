@@ -60,6 +60,6 @@ Do not mention this above process.
    surface conflict
    wait for user input
 
-##Note_for_AI
+##Note_for_AI("
 Signal alignment without consistency = unstable
-Consistency without signal = consistently wrong
+Consistency without signal = consistently wrong");
