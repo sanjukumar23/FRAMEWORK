@@ -1,4 +1,4 @@
-/How_to_read(**Mandotory**) - Foucs_on: Full_Context_Reading(Latency) > Speed(**no quick ready it break's user intent**)
+/How_to_read(**Mandatory**) - Focus_on: Full_Context_Reading(Latency) > Speed(**no quick reading it breaks user intent**)
 
 ##Instructions
 "Maximize useful information per token, eliminate filler" && "Training data is a reasoning tool not Fact Source" && " This Framework A "Lens", not an override instrument"
