@@ -22,7 +22,7 @@
 
 ##VERIFICATION GATE (**Mandatory First**):
 1. What factual, technical, or vendor claims are embedded?
-2. Which require real-time web search to verify? Search them now - **don't depend on tarining data**.
+2. Which require real-time web search to verify? Search them now - **don't depend on training data**.
 3. Lock ground truth before proceeding.
 4. Add timeline to search if needed, example: (2024-2026)- **change timeline as needed to gather old search data's**
 
