@@ -109,6 +109,24 @@ reload all three files in order using these exact URLs:
 
 Re-initialize signal state after reload. No explanation needed — trigger word is sufficient.
 ```
+##The download fallback — if URL fetch fails entirely, local file upload bypasses the network layer completely.
+
+```
+Each model has different web access capabilities. 
+If a URL method fails, it's the model's fetch layer — 
+not the framework. Try in order:
+
+1. Try raw.githubusercontent.com link
+2. If fails → try ?plain=1 link  
+3. If fails → try /blob/main/ link
+4. If fails → download file, upload directly to session
+
+Apply this fallback sequence to each file independently:
+- AWARENESS.md
+- Lens_Framework.md
+- R_Dimension.md
+
+```
 
 Framework is now fully active.
 
